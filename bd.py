@@ -11,11 +11,11 @@ if os.getenv('FA_ENVIROMENT') != 'prod':
     PORT = '5432'
     SERVER = 'localhost'
 else:
-    POSTGRES_USER ='g6ingsoftware'
-    POSTGRES_PASSWORD = 'g6ingsoftware2021'
-    POSTGRES_DB = 'g6ingsoftware_bd'
+    POSTGRES_USER ='G3proyecto'
+    POSTGRES_PASSWORD = 'G3proyecto1054'
+    POSTGRES_DB = 'G3proyecto_bd'
     PORT = '5432'
-    SERVER = '146.83.198.35'
+    SERVER = '146.83.194.142'
 
 SQLALCHEMY_DATABASE_URL = 'postgresql+psycopg2://'+POSTGRES_USER+':'+POSTGRES_PASSWORD+'@'+SERVER+":"+PORT+'/'+POSTGRES_DB
 engine = create_engine(SQLALCHEMY_DATABASE_URL
