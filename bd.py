@@ -11,9 +11,9 @@ if os.getenv('FA_ENVIROMENT') != 'prod':
     PORT = '5432'
     SERVER = 'localhost'
 else:
-    POSTGRES_USER ='G3proyecto'
-    POSTGRES_PASSWORD = 'G3proyecto1054'
-    POSTGRES_DB = 'G3proyecto_bd'
+    POSTGRES_USER ='g3proyecto'
+    POSTGRES_PASSWORD = 'g3proyecto1054'
+    POSTGRES_DB = 'g3proyecto_bd'
     PORT = '5432'
     SERVER = '146.83.194.142'
 
